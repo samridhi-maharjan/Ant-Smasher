@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    /* background-color: rgb(255, 209, 169); */
+    background-image: url("/assests/background.jpg");
+    height: 500px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    text-align: center;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-panel{
+    display: flex; 
+    margin-bottom: 20px; 
+}
+.score{
+    font-size: 20px;
+    justify-self: flex-start;
+}
+.controls{
+    justify-content: flex-end;
+}
+#restart{
+    padding: 10px;
+    font-family: 'poppins';
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0 2px #b5b5b5;
+    justify-items: flex-end;
+}
+#restart:hover{
+    background-color: greenyellow;
+}
+#restart:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #b5b5b5;
+  transform: translateY(4px);
+}
+.container #gameCanvas{
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(220, 220, 220, 0.351);
+}
+
