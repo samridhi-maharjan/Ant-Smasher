@@ -4,7 +4,7 @@
 }
 body{
     /* background-color: rgb(255, 209, 169); */
-    background-image: url("/assests/background.jpg");
+    background-image: url("./assests/background.jpg");
     height: 500px;
     background-position: center; 
     background-repeat: no-repeat;
