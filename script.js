@@ -6,7 +6,7 @@ const canvas=document.getElementById('gameCanvas');
 const body= document.getElementsByTagName('body');
 const message=document.getElementsByClassName('message')
 var current_score=0;
-const pop=new Audio("./assests/ant-smash.mp3");
+const pop=new Audio("./assets/ant-smash.mp3");
 var high_Score=0;
 // ant.src="https://img.icons8.com/?size=100&id=yQ02KJnFbP7M&format=png&color=000000";
 const time=1000;
