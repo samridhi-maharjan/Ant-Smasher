@@ -1,5 +1,6 @@
 const container=document.getElementsByClassName('container');
-const score=document.getElementById('score');
+var score=document.getElementById('score');
+var highScore=document.getElementById('high_score');
 const restart=document.getElementById('restart');
 const canvas=document.getElementById('gameCanvas');
 const body= document.getElementsByTagName('body');
@@ -34,6 +35,7 @@ function antSpawn(){
         current_score++;
         score.innerText=current_score;
         console.log(current_score);
+        highScore();
     });
     restart.addEventListener("click", restartGame);
     function restartGame(){
@@ -41,6 +43,12 @@ function antSpawn(){
         current_score=0;
         antDiv.remove();
         // console.log("clicked");
+    }
+}
+highScore=0;
+function highScore(){
+    if(current_score>highScore){
+        highScore=current_score;
     }
 }
    
