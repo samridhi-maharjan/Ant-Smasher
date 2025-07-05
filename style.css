@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Michroma&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Oxanium:wght@200..800&family=Press+Start+2P&display=swap');
-*{
-    margin: 0;
-    border: 0;
-}
 html,
 body {
   height: 100%;
@@ -21,12 +17,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
-
-}
-.press-start-2p-regular {
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
 }
 h1{
     margin-top: 10px;
