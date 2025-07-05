@@ -3,80 +3,7 @@
     margin: 0;
     border: 0;
 }
-/* body{
-    background-image: url("https://www.freepik.com/free-vector/low-point-view-nature-landscape_24552494.htm#fromView=search&page=1&position=2&uuid=85e65ff2-300e-40df-bd20-af217bbea401&query=sandy+grass");
-    height: 500px;
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-.press-start-2p-regular {
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-h1{
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Press Start 2P';
-}
-.container{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 120px;
-    margin-left: 366px;
-}
-.info-panel{
-    display: flex; 
-    margin-bottom: 20px; 
-}
-.scores{
-    display: flex;
-    flex-direction: column;
-}
-.score{
-    font-size: 20px;
-    margin-right: 200px;
-    margin-top: 10px;
-}
-.high_score{
-    font-size: 20px;
-}
-.controls{
-    justify-content: flex-end;
-}
-#restart{
-    padding: 10px;
-    font-family: 'poppins';
-    border-radius: 8px;
-    background-color: green;
-    color: white;
-    font-size: 20px;
-    box-shadow: 0 2px #b5b5b5;
-}
-#restart:hover{
-    background-color: greenyellow;
-}
-#restart:active {
-  background-color: #3e8e41;
-  box-shadow: 0 2px #b5b5b5;
-  transform: translateY(4px);
-}
-.container #gameCanvas{
-    border: 2px solid black;
-    background-color: rgba(220, 220, 220, 0.351);
-    height:600px;
-    width:800px;
-    margin: auto;
-}
-.ant_div{
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 366px;
-} */
- html,
+html,
 body {
   height: 100%;
   margin: 0;
@@ -85,7 +12,7 @@ body {
 }
 body{
     background-image: url("https://www.freepik.com/free-vector/low-point-view-nature-landscape_24552494.htm#fromView=search&page=1&position=2&uuid=85e65ff2-300e-40df-bd20-af217bbea401&query=sandy+grass");
-    background-image: url("./assests/background.jpg");
+    background-image: url("../assests/background.jpg");
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -105,6 +32,7 @@ h1{
     margin-top: 10px;
     text-align: center;
     font-family: 'Press Start 2P';
+    margin-bottom: 10px;
 }
 .container {
   display: flex;
@@ -141,6 +69,7 @@ h1{
     color: white;
     font-size: 20px;
     box-shadow: 0 2px #b5b5b5;
+    margin-top: 10px;
 }
 #restart:hover{
     background-color: greenyellow;

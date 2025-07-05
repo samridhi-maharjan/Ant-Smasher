@@ -7,7 +7,7 @@ const body= document.getElementsByTagName('body');
 const message=document.getElementsByClassName('message')
 var current_score=0;
 const pop=new Audio("./assests/ant-smash.mp3");
-
+var high_Score=0;
 // ant.src="https://img.icons8.com/?size=100&id=yQ02KJnFbP7M&format=png&color=000000";
 const time=1000;
 
@@ -34,6 +34,10 @@ function antSpawn(){
         setTimeout(function(){antClicked.remove()}, 1000);
         current_score++;
         score.innerText=current_score;
+        if(current_score>high_Score){
+            high_Score=current_score
+            highScore.innerText=high_Score;
+        }
         console.log(current_score);
     });
     restart.addEventListener("click", restartGame);
@@ -42,12 +46,6 @@ function antSpawn(){
         current_score=0;
         antDiv.remove();
         // console.log("clicked");
-    }
-}
-highScore=0;
-function highScore(){
-    if(current_score>highScore){
-        highScore=current_score;
     }
 }
    
