@@ -23,8 +23,8 @@ function antSpawn(){
     console.log("interval");
     ant.height=25;
     antDiv.style.marginLeft= (container.width -600)/2 + "px";
-    antDiv.style.top = Math.random() * (600 - 25) + "px";
-    antDiv.style.left = Math.random() * (800 - 25) + "px";
+    antDiv.style.top = Math.random() * (gameCanvas.clientHeight - 25) + "px";
+    antDiv.style.left = Math.random() * (gameCanvas.clientWidth - 25) + "px";
     ant.addEventListener("click",function()
     {
         ant.src="https://img.icons8.com/?size=100&id=122601&format=png&color=000000";
@@ -35,7 +35,6 @@ function antSpawn(){
         current_score++;
         score.innerText=current_score;
         console.log(current_score);
-        highScore();
     });
     restart.addEventListener("click", restartGame);
     function restartGame(){
