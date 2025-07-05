@@ -34,29 +34,32 @@ h1{
 .info-panel{
     display: flex; 
     margin-bottom: 20px; 
+    font-family: 'Press Start 2P';
 }
 .scores{
     display: flex;
     flex-direction: column;
 }
 .score{
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 200px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .high_score{
-    font-size: 20px;
+    font-size: 15px;
+    margin-top: 10px;
 }
 .controls{
     justify-content: flex-end;
 }
 #restart{
-    padding: 10px;
-    font-family: 'poppins';
+    padding: 20px;
+    font-family: 'Press Start 2P';
+    font-size: 5px;
     border-radius: 8px;
     background-color: green;
     color: white;
-    font-size: 20px;
+    font-size: 10px;
     box-shadow: 0 2px #b5b5b5;
     margin-top: 10px;
     border: none;
@@ -69,13 +72,14 @@ h1{
   transform: translateY(4px);
 }
 .container #gameCanvas{
-    border: 2px solid black;
+    border: 2px solid rgba(61, 61, 61, 0.355);
     background-color: rgba(220, 220, 220, 0.351);
     position: relative;
     width: min(90vw, 800px);
     height: min(80vh, 600px);
     overflow: hidden;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 .ant_div{
     position: absolute;
