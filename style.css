@@ -9,6 +9,7 @@ body {
 body{
     background-image: url("https://www.freepik.com/free-vector/low-point-view-nature-landscape_24552494.htm#fromView=search&page=1&position=2&uuid=85e65ff2-300e-40df-bd20-af217bbea401&query=sandy+grass");
     background-image: url("../assests/background.jpg");
+    background-color: #3e8e41;
     min-height: 100vh;
     display: flex;
     justify-content: center;
